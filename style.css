@@ -79,7 +79,7 @@ img {
     text-align: center;
 }
 
-.second-skills{
+.second-edu{
     flex-direction: row-reverse;
 }
 
@@ -96,11 +96,39 @@ img {
     margin-bottom: 50px;
 }
 
+.skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-paragraph{
+    text-align: left;
+}
+
 footer{
     display: flex;
-    justify-content: center;
-    margin-top: 100px;
-    margin-bottom: 50px;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+small {
+    margin-bottom: 25px;
+}
+
+.icons {
+    font-size: 24px; 
+    margin-right: 4px;
+}
+
+#footer-links{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#footer-links a {
+    margin-right: 10px;
 }
 
 
