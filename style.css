@@ -1,0 +1,112 @@
+body {
+    background-color: white;
+}
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.first {
+    margin-top: 50px;
+}
+
+
+#name{
+    font-family:  "Bungee Spice", sans-serif;;
+    font-size: 60px;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    border-radius: 5%;
+}
+
+.block {
+    text-align: center;
+    width: 50%;
+}
+
+.block-title {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 50px;
+    color: #F55353;
+}
+
+.block-text {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+}
+
+.education {
+    display: flex;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#mindera-img {
+    height: 500px;
+    width: 650px;
+    margin-right: 50px;
+}
+
+#warmup-img {
+    margin-left: 120px;
+    height: 250px;
+    width: 500px;
+}
+
+#iscac-img {
+    height: 400px;
+    width: 350px;
+    margin-right: 50px;    
+}
+
+#list-p {
+    text-align: center;
+}
+
+
+.list {
+    text-align: left;
+}
+
+.list-title {
+    text-align: center;
+}
+
+.second-skills{
+    flex-direction: row-reverse;
+}
+
+.date {
+    text-align: center;
+}
+
+.experience{
+    display: flex;
+    flex-direction: column;
+}
+
+.exp-block{
+    margin-bottom: 50px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+@media (max-width: 680px){
+
+    .block-text{
+        text-align: justify;
+    }
+}
