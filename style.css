@@ -315,27 +315,27 @@ small {
     }
 
     h3 {
-        font-size: 16px;
+        font-size: 17px;
     }
 
     .list p {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .date {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     ul {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     li {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .warmup-media p {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     
@@ -366,11 +366,11 @@ small {
     }
 
     footer {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     small {
-        font-size: 12px;
+        font-size: 13px;
     }
 
 }
