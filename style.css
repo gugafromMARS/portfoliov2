@@ -197,6 +197,8 @@ small {
     p {
         text-align: justify;
         font-size: 12px;
+        font-weight: 300;
+        font-style: normal;
     }
 
     #name {
@@ -213,6 +215,8 @@ small {
 
     .list p {
         font-size: 12px;
+        font-weight: 300;
+        font-style: normal;
     }
 
     .date {
@@ -223,11 +227,15 @@ small {
     ul {
         text-align: justify;
         font-size: 12px;
+        font-weight: 300;
+        font-style: normal;
     }
 
     li {
         text-align: justify; 
         font-size: 12px;
+        font-weight: 300;
+        font-style: normal;
     }
 
 
@@ -269,6 +277,8 @@ small {
     }
 
     .warmup-media p {
+        font-weight: 300;
+        font-style: normal;
         text-align: justify;
         font-size: 12px;
     }
@@ -276,6 +286,8 @@ small {
     .skills-paragraph{
         text-align: justify;
         font-size: 12px;
+        font-weight: 300;
+        font-style: normal;
     }
 
     .skills {
@@ -295,10 +307,14 @@ small {
 
     .block-text{
         font-size: 15px;
+        font-weight: 300;
+        font-style: normal;
     }   
 
     p {
         font-size: 15px;
+        font-weight: 300;
+        font-style: normal;
     }
 
     .first img {
@@ -320,6 +336,8 @@ small {
 
     .list p {
         font-size: 15px;
+        font-weight: 300;
+        font-style: normal;
     }
 
     .date {
@@ -328,14 +346,20 @@ small {
 
     ul {
         font-size: 15px;
+        font-weight: 300;
+     font-style: normal;
     }
 
     li {
         font-size: 15px;
+        font-weight: 300;
+        font-style: normal;
     }
 
     .warmup-media p {
         font-size: 15px;
+        font-weight: 300;
+        font-style: normal;
     }
 
     
@@ -363,6 +387,8 @@ small {
 
     .skills-paragraph{
         font-size: 15px;
+        font-weight: 300;
+        font-style: normal;
     }
 
     footer {
