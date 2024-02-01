@@ -17,7 +17,7 @@ body {
 
 #name{
     font-family:  "Bungee Spice", sans-serif;;
-    font-size: 60px;
+    font-size: 50px;
 }
 
 img {
@@ -33,7 +33,7 @@ img {
 
 .block-title {
     font-family: "Bebas Neue", sans-serif;
-    font-size: 50px;
+    font-size: 45px;
     color: #F55353;
 }
 
@@ -121,15 +121,13 @@ h3 {
     flex-direction: column;
 }
 
-.exp-block{
-    margin-bottom: 50px;
-}
 
 .exp-block{
     font-family: "Lato", sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: 18px;
+    margin-bottom: 50px;
 }
 
 .skills {
@@ -163,6 +161,7 @@ small {
 }
 
 #footer-links{
+    font-family: "Lato", sans-serif;
     margin-top: 25px;
     margin-bottom: 25px;
 }
@@ -184,55 +183,194 @@ small {
 
 @media (max-width: 680px){
 
+    .first img {
+        height: 150px;
+        width: 150px;
+    }
+
+
     .block-text{
         text-align: justify;
+        font-size: 12px;
     }
 
     p {
         text-align: justify;
+        font-size: 12px;
+    }
+
+    #name {
+        font-size: 25px;
+    }
+
+    .block-title{
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    .list p {
+        font-size: 12px;
+    }
+
+    .date {
+        text-align: justify;
+        font-size: 12px;
     }
 
     ul {
         text-align: justify;
+        font-size: 12px;
     }
 
     li {
         text-align: justify; 
+        font-size: 12px;
     }
 
 
     .education {
        flex-direction: column;
+       margin-bottom: 50px;
     }
 
     #mindera-img {
-        height: 300px;
-        width: 250px;
+        height: 250px;
+        width: 200px;
         margin-right: 0px;
+        margin-left: 10%;
+    }
+
+    #warmup-img {
+        height: 150px;
+        width: 200px;
+        margin-left: 0px;
+        margin-left: 10%;
+    }
+    
+    #iscac-img {
+        height: 250px;
+        width: 200px;
+        margin-right: 0px;  
+        margin-left: 10%; 
+    }
+    #list-p {
+        text-align: justify;
+    }
+
+    .exp-block {
+        margin-bottom: 25px;
+    }
+
+    .exp-block a {
+        font-size: 12px;
+    }
+
+    .warmup-media p {
+        text-align: justify;
+        font-size: 12px;
+    }
+
+    .skills-paragraph{
+        text-align: justify;
+        font-size: 12px;
+    }
+
+    .skills {
+        margin-bottom: 35px;
+    }
+
+    #footer-links {
+        font-size: 10px;
+    }
+
+    small {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 681px) and (max-width: 1280px){
+
+    .block-text{
+        font-size: 15px;
+    }   
+
+    p {
+        font-size: 14px;
+    }
+
+    .first img {
+        height: 200px;
+        width: 200px;
+    }
+
+    #name {
+        font-size: 35px;
+    }
+
+    .block-title{
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    .list p {
+        font-size: 14px;
+    }
+
+    .date {
+        font-size: 12px;
+    }
+
+    ul {
+        font-size: 14px;
+    }
+
+    li {
+        font-size: 14px;
+    }
+
+    .warmup-media p {
+        font-size: 14px;
+    }
+
+    
+    #mindera-img {
+        margin-top: 8%;
+        height: 350px;
+        width: 250px;
     }
 
     #warmup-img {
         height: 150px;
         width: 250px;
-        margin-left: 0px;
     }
     
     #iscac-img {
         height: 300px;
         width: 250px;
-        margin-right: 0px;   
     }
 
-    .warmup-media p {
-        text-align: justify;
+    
+    .exp-block a {
+        font-size: 14px;
     }
+    
 
     .skills-paragraph{
-        text-align: justify;
+        font-size: 14px;
     }
 
-    #test {
-        text-align: center;
+    footer {
+        font-size: 14px;
+    }
+
+    small {
+        font-size: 12px;
     }
 
 }
