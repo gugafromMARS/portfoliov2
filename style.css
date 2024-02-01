@@ -263,7 +263,7 @@ small {
         width: 200px;
         margin-right: 0px;  
     }
-    
+
     #list-p {
         text-align: justify;
     }
@@ -306,13 +306,13 @@ small {
 @media (min-width: 681px) and (max-width: 1280px){
 
     .block-text{
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 300;
         font-style: normal;
     }   
 
     p {
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 300;
         font-style: normal;
     }
@@ -331,33 +331,33 @@ small {
     }
 
     h3 {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .list p {
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 300;
         font-style: normal;
     }
 
     .date {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     ul {
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 300;
         font-style: normal;
     }
 
     li {
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 300;
         font-style: normal;
     }
 
     .warmup-media p {
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 300;
         font-style: normal;
     }
@@ -381,22 +381,22 @@ small {
 
     
     .exp-block a {
-        font-size: 16px;
+        font-size: 12px;
     }
     
 
     .skills-paragraph{
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 300;
         font-style: normal;
     }
 
     footer {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     small {
-        font-size: 16px;
+        font-size: 12px;
     }
 
 }
