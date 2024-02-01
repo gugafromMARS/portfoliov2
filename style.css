@@ -241,6 +241,8 @@ small {
 
     .education {
        flex-direction: column;
+       justify-content: center;
+       align-items: center;
        margin-bottom: 50px;
     }
 
@@ -248,22 +250,20 @@ small {
         height: 250px;
         width: 200px;
         margin-right: 0px;
-       
     }
 
     #warmup-img {
         height: 150px;
         width: 200px;
         margin-left: 0px;
-        
     }
     
     #iscac-img {
         height: 250px;
         width: 200px;
         margin-right: 0px;  
-        
     }
+    
     #list-p {
         text-align: justify;
     }
