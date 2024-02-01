@@ -187,4 +187,52 @@ small {
     .block-text{
         text-align: justify;
     }
+
+    p {
+        text-align: justify;
+    }
+
+    ul {
+        text-align: justify;
+    }
+
+    li {
+        text-align: justify; 
+    }
+
+
+    .education {
+       flex-direction: column;
+    }
+
+    #mindera-img {
+        height: 300px;
+        width: 250px;
+        margin-right: 0px;
+    }
+
+    #warmup-img {
+        height: 150px;
+        width: 250px;
+        margin-left: 0px;
+    }
+    
+    #iscac-img {
+        height: 300px;
+        width: 250px;
+        margin-right: 0px;   
+    }
+
+    .warmup-media p {
+        text-align: justify;
+    }
+
+    .skills-paragraph{
+        text-align: justify;
+    }
+
+    #test {
+        text-align: center;
+    }
+
 }
