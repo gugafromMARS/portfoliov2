@@ -20,7 +20,7 @@ body {
 
 .block.first {
   margin-top: 10rem;
-  margin-bottom: 16rem;
+  margin-bottom: 13rem;
 }
 
 .logo {
@@ -114,10 +114,6 @@ img {
   color: black;
   text-decoration: underline;
   text-decoration-thickness: 2px;
-}
-
-.about-title {
-  margin-top: 15rem;
 }
 
 .block-text {
