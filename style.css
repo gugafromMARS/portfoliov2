@@ -7,11 +7,23 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 9rem;
+  height: 6rem;
   border-bottom: 1px solid black;
+  z-index: 100;
 }
 
-.header-img {
+.sticky-nav {
+  position: fixed;
+  top: 0px;
+  background-color: rgb(255, 255, 255, 0.9);
+}
+
+.block.first {
+  margin-top: 10rem;
+  margin-bottom: 16rem;
+}
+
+.logo {
   margin-left: 10rem;
   height: 5rem;
   width: 13rem;
@@ -34,6 +46,11 @@ body {
 
 .nav__item {
   margin-left: 4rem;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: black;
 }
 
 .main {
@@ -66,8 +83,31 @@ img {
   margin-top: 3rem;
 }
 
+#section--1 {
+  border-top: 1px solid black;
+  margin-bottom: 20rem;
+}
+
+#section--2 {
+  border-top: 1px solid black;
+  margin-top: 19rem;
+  margin-bottom: 20rem;
+}
+
+#section--3 {
+  border-top: 1px solid black;
+  margin-top: 19rem;
+  margin-bottom: 20rem;
+}
+
+#section--4 {
+  border-top: 1px solid black;
+  margin-bottom: 1rem;
+}
+
 .block-title {
   font-family: "Josefin Sans", sans-serif;
+  margin-top: 10rem;
   font-size: 2.5rem;
   font-weight: 300;
   font-style: normal;
@@ -188,7 +228,7 @@ footer {
 }
 
 small {
-  margin-bottom: 25px;
+  margin-bottom: 2rem;
 }
 
 .icons {
@@ -206,6 +246,18 @@ small {
   text-decoration: none;
   color: black;
   margin-right: 10px;
+}
+
+#about-links {
+  font-family: "Lato", sans-serif;
+  margin-top: 5rem;
+}
+
+#about-links a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: black;
+  margin-right: 5rem;
 }
 
 .fa-instagram {
