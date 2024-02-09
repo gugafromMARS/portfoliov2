@@ -20,7 +20,7 @@ body {
 
 .block.first {
   margin-top: 10rem;
-  margin-bottom: 13rem;
+  margin-bottom: 20rem;
 }
 
 .logo {
@@ -104,9 +104,19 @@ img {
   margin-bottom: 1rem;
 }
 
+.section {
+  background-color: white;
+  padding: 10rem 3rem;
+  transition: transform 1s, opacity 1s;
+}
+
+.section--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+}
+
 .block-title {
   font-family: "Josefin Sans", sans-serif;
-  margin-top: 10rem;
   font-size: 2.5rem;
   font-weight: 300;
   font-style: normal;

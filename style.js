@@ -48,3 +48,25 @@ const firstBlockObs = new IntersectionObserver(stickyNav, {
 });
 
 firstBlockObs.observe(firstBlock);
+
+const allSections = document.querySelectorAll(".section");
+
+const revealSection = function (entries, observer) {
+  const [entry] = entries;
+  if (!entry.isIntersecting) {
+    return;
+  }
+  entry.target.classList.remove("section--hidden");
+
+  observer.unobserve(entry.target);
+};
+
+const sectionObs = new IntersectionObserver(revealSection, {
+  root: null,
+  threshold: 0.1,
+});
+
+allSections.forEach((section) => {
+  sectionObs.observe(section);
+  section.classList.add("section--hidden");
+});
