@@ -288,6 +288,10 @@ small {
     z-index: 100;
   }
 
+  .nav img {
+    display: none;
+  }
+
   .first img {
     height: 9em;
     width: 9em;
@@ -305,9 +309,17 @@ small {
     font-style: normal;
   }
 
+  #about-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   #about-links a {
     font-size: 0.8rem;
-    margin-right: 1rem;
+    margin-bottom: 1.5rem;
+    margin-right: 0;
   }
 
   #name {
