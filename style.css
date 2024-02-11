@@ -292,6 +292,18 @@ small {
     display: none;
   }
 
+  .nav__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-right: 6rem;
+  }
+
+  .nav__item {
+    margin-left: 3rem;
+  }
+
   .first img {
     height: 9em;
     width: 9em;
