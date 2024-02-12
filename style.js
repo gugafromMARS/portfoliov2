@@ -9,18 +9,24 @@ const firstBlock = document.querySelector(".first");
 navItems.addEventListener("click", (e) => {
   e.preventDefault();
 
-  if (e.target.classList.contains("nav__link")) {
+  if (
+    e.target.classList.contains("nav__link") ||
+    e.target.classList.contains("a__svg")
+  ) {
     const id = e.target.getAttribute("href");
     document.querySelector(id).scrollIntoView({ behavior: "smooth" });
   }
 });
 
 const handleHover = function (e) {
-  if (e.target.classList.contains("nav__link")) {
-    const link = e.target;
-    const sibblings = link.closest(".nav").querySelectorAll(".nav__link");
+  if (
+    e.target.classList.contains("nav__link") ||
+    e.target.classList.contains("a__svg")
+  ) {
+    const link = e.target.closest(".nav__item");
+    const sibblingsItems = link.closest(".nav").querySelectorAll(".nav__item");
 
-    sibblings.forEach((el) => {
+    sibblingsItems.forEach((el) => {
       if (el !== link) {
         el.style.opacity = this;
       }
