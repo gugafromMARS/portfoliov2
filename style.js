@@ -76,3 +76,12 @@ allSections.forEach((section) => {
   sectionObs.observe(section);
   section.classList.add("section--hidden");
 });
+
+const cvBtn = document.querySelector("#a__btn");
+
+const cvBtnHover = function (e) {
+  e.target.querySelector("object").style.opacity = this;
+};
+
+cvBtn.addEventListener("mouseover", cvBtnHover.bind(0.5));
+cvBtn.addEventListener("mouseout", cvBtnHover.bind(1));
