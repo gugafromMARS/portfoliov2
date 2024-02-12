@@ -322,6 +322,14 @@ small {
     margin-left: 3rem;
   }
 
+  a[class="nav__link"] {
+    font-size: px;
+  }
+
+  .nav__svg {
+    height: 1rem;
+  }
+
   .first img {
     height: 9em;
     width: 9em;
@@ -454,6 +462,10 @@ small {
 }
 
 @media (min-width: 681px) and (max-width: 1280px) {
+  .nav__svg {
+    height: 1.5rem;
+  }
+
   .first img {
     height: 12em;
     width: 12em;
