@@ -52,6 +52,14 @@ body {
   margin-left: 4rem;
 }
 
+.cv_div p {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+}
+
 .a__svg {
   text-decoration: none;
   color: black;
@@ -69,6 +77,16 @@ object {
 .nav__link {
   text-decoration: none;
   color: black;
+}
+
+#a__btn {
+  padding: 55px 0px 0px 0px;
+}
+
+#a__btn object {
+  pointer-events: none;
+  height: 5rem;
+  width: 5rem;
 }
 
 .main {
@@ -278,6 +296,7 @@ small {
 #about-links {
   font-family: "Lato", sans-serif;
   margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 #about-links a {
@@ -358,6 +377,19 @@ small {
     font-size: 0.8rem;
     margin-bottom: 1.5rem;
     margin-right: 0;
+  }
+
+  .cv_div p {
+    font-size: 12px;
+  }
+
+  #a__btn {
+    padding: 20px 0px 0px 0px;
+  }
+
+  #a__btn object {
+    height: 2rem;
+    width: 2rem;
   }
 
   #name {
@@ -480,6 +512,19 @@ small {
     font-size: 14px;
     font-weight: 300;
     font-style: normal;
+  }
+
+  #a__btn {
+    padding: 35px 0px 0px 0px;
+  }
+
+  .cv_div p {
+    font-size: 14px;
+  }
+
+  #a__btn object {
+    height: 3rem;
+    width: 3rem;
   }
 
   p {
